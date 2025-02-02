@@ -1,0 +1,228 @@
+body{
+    background-image: url("img1.png/000.webp");
+    background-size: cover;
+    filter: blur(0.2px);
+    z-index: -1;
+    background-position: center;
+}
+.nav{
+   
+   margin-bottom: 20px;
+            }
+            .wrapper{
+                margin: 0 auto;
+                width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+            }
+            .atag{
+                height: 60px;
+                width: 300px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+    
+            }
+            .atag a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+               
+            }
+            .logo{
+                color: black;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+
+            }
+            .icon{
+                width: 40px;
+                height: 35px;
+                margin-right: 1px;
+                margin-top: 1px ;
+                
+            }
+            a:hover{
+                color: skyblue;
+                transition: .5s linear;
+            }
+            .wrapper5{
+                margin: 0 auto;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            
+            }
+            .pfooter{
+                height: 70px;
+                            width: 250px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+            }
+            .ppfooter{
+                height: 70px;
+                            width: 300px;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+            }
+            .ppfooter a{
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .footer{
+                margin-top: 20px;
+                
+                
+            }
+            .text{
+                
+                margin-bottom: 20px;
+            }
+            .ppfooter a:hover{
+                color: skyblue;
+                transition: .5s linear;
+            }
+            .two{
+                width: 40px;
+                            height: 35px;
+                            margin-right: 1px;
+                            margin-top: 1px ;
+            }
+.wrapper10{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}  
+.about{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.about p{
+    font-size: 25px;
+} 
+.wrapper0{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.quote{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.quote p{
+    font-size: 25px;
+}
+.wrapper00{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.quote1{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.quote1 p{
+    font-size: 25px;
+}  
+.wrapper000{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.quote2{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.quote2 p{
+    font-size: 25px;
+}  
+.wrapper02{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.quote3{
+    font-family: 'Times New Roman', Times, serif;
+} 
+.quote3 p{
+    font-size: 25px;
+}   
+.wrapper022{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.pic img{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.cards {
+    position: relative; 
+}
+
+.wrapper022 {
+    position: relative;
+    overflow: hidden; 
+}
+
+.pic {
+    position: relative; 
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: peachpuff;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+
+.pic:hover .overlay {
+    opacity: 0.9; 
+}      
